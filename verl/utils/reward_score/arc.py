@@ -30,6 +30,7 @@ def compute_score(solution_str, ground_truth, score=1.0):
         score: the score for the correct answer
     """
     answer = extract_solution(solution_str=solution_str)
+    breakpoint()
     if answer is None:
         return 0
     else:
